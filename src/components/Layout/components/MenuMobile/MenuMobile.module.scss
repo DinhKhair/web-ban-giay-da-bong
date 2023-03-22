@@ -1,0 +1,84 @@
+.menu-mobile {
+    display: none;
+    position: relative;
+}
+
+.menu-mobile-icon {
+    color: var(--white-color);
+    font-size: 20px;
+}
+
+.menu-mobile-checkbox {
+    display: none;
+}
+
+.menu-mobile-checkbox:checked ~ .container-menu-mobile {
+    display: block;
+}
+
+.menu-mobile-checkbox:checked ~ .menu-mobile-overlay {
+    display: block;
+}
+
+.menu-mobile-overlay {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 99999;
+    display: none;
+}
+
+.container-menu-mobile {
+    width: 200px;
+    max-width: 100%;
+    position: fixed;
+    display: block;
+    display: none;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--white-color);
+    z-index: 99999;
+}
+
+.container-menu-mobile-icon-close {
+    color: #0f0f0f;
+    float: right;
+    margin: 10px 20px;
+    font-size: 20px;
+}
+
+.container-menu-mobile-item {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--text-color);
+    margin: 20px 40px 10px 40px;
+}
+
+.header-navbar-item-add-product {
+    width: 125px;
+    height: 30px;
+    color: var(--text-color);
+    background-color: var(--button-color);
+    border: solid 1px;
+    border-radius: var(--border-radius);
+    text-align: center;
+    padding-top: 4px;
+    text-decoration: none;
+    margin: 0 40px;
+}
+
+.header-navbar-item-add-product:hover {
+    cursor: pointer;
+    background-color: var(--button-color-hover);
+}
+
+@media (max-width: 739px) {
+    .menu-mobile {
+        display: block;
+    }
+}

@@ -1,0 +1,35 @@
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+:root {
+    --primary: #ff4500;
+    --white-color: white;
+    --header-height: 70px;
+    --navbar-height: 40px;
+    --search-color: #edf0f3;
+    --text-color: black;
+    --button-color: #eaeaea;
+    --button-color-hover: #dddddd;
+    --button-buy-color: #ee3124;
+    --button-add-cart-color: #ffc83b;
+    --button-delete-color: #f0f0f0;
+    --price-color: #ff0000;
+    --border-radius: 3px;
+    --background-color-cart: #f5f5fa;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizespeed;
+    margin: 0;
+}

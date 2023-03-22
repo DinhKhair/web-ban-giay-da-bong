@@ -1,0 +1,216 @@
+.product-detail-wrapper {
+    margin: 0 0 20px 0;
+}
+
+.product-detail-path {
+    display: flex;
+}
+
+.product-detail-path-home {
+    margin: auto 0;
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+.product-detail-path-space {
+    margin: auto 10px;
+}
+
+.product-detail {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 5px 0;
+}
+
+.product-detail-image {
+    width: 470px;
+    height: 470px;
+}
+
+.product-detail-content {
+    width: 350px;
+}
+
+.product-detail-name {
+    height: 55px;
+}
+
+.product-detail-price {
+    color: var(--price-color);
+    margin-top: 30px;
+}
+
+.product-detail-trademark {
+    color: #808080;
+}
+
+.product-detail-size-title {
+    margin: 65px 0 5px 0;
+}
+
+.product-detail-list-size {
+    display: flex;
+    margin-top: 5px;
+    padding-left: 15px;
+}
+
+.product-detail-list-size-number {
+    width: 30px;
+    height: 30px;
+    font-size: 20px;
+    list-style: none;
+    margin-right: 5px;
+    text-align: center;
+    border: solid 2px;
+    border-radius: var(--border-radius);
+}
+
+.product-detail-list-size-number:hover {
+    cursor: pointer;
+}
+
+.product-detail-btn {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.product-detail-btn-buy {
+    width: 100px;
+    height: 30px;
+    font-size: 14px;
+    background-color: var(--button-buy-color);
+    color: var(--white-color);
+    border: solid 1px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 4px;
+}
+
+.product-detail-btn-add-cart {
+    width: 170px;
+    height: 30px;
+    font-size: 14px;
+    background-color: var(--button-add-cart-color);
+    color: var(--white-color);
+    border: solid 1px;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    padding-top: 4px;
+}
+
+.product-detail-policy {
+    width: 100%;
+    display: block;
+}
+
+.product-detail-policy-item {
+    width: 710px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    border-bottom: solid 2px;
+}
+
+.product-detail-policy-item-icon {
+    width: 80px;
+    font-size: 40px;
+    margin: auto;
+    color: #596067;
+}
+
+.product-detail-policy-item-content {
+    width: 610px;
+    margin-left: 10px;
+}
+
+.product-detail-policy-item-title {
+    color: var(--primary);
+    margin: 5px 0 10px 0;
+}
+
+.product-detail-policy-item-description {
+    margin-bottom: 10px;
+    font-size: 15px;
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+    .product-detail-image {
+        width: 420px;
+        height: 420px;
+    }
+}
+@media (max-width: 739px) {
+    .product-detail-image {
+        width: 200px;
+        height: 200px;
+    }
+    .product-detail-content {
+        width: 250px;
+    }
+    .product-detail-name {
+        font-size: 15px;
+        height: 30px;
+    }
+    .product-detail-price {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    .product-detail-trademark {
+        margin-top: 15px;
+    }
+    .product-detail-size-title {
+        margin: 0 0 5px 0;
+    }
+    .product-detail-list-size {
+        padding-left: 5px;
+    }
+    .product-detail-list-size-number {
+        width: 25px;
+        height: 25px;
+        font-size: 15px;
+        margin-right: 5px;
+    }
+    .product-detail-btn {
+        margin-top: 15px;
+    }
+    .product-detail-btn-buy {
+        width: 60px;
+        height: 28px;
+        font-size: 11px;
+    }
+    .product-detail-btn-add-cart {
+        width: 90px;
+        height: 28px;
+        font-size: 10px;
+    }
+    .product-detail-policy-item {
+        width: 340px;
+    }
+    .product-detail-policy-item-icon {
+        width: 80px;
+        font-size: 30px;
+    }
+    .product-detail-policy-item-content {
+        margin-left: 5px;
+    }
+    .product-detail-policy-item-title {
+        font-size: 14px;
+        margin: 5px 0 5px 0;
+    }
+    .product-detail-policy-item-description {
+        margin: 5px 0;
+        font-size: 12px;
+    }
+    .product-detail-path {
+        margin-left: 10px;
+    }
+    .product-detail-path-home,
+    .product-detail-path-space,
+    .product-detail-path-name {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,19 @@
+.footer {
+    height: 70px;
+    background: linear-gradient(to right, rgb(199, 210, 254), rgb(254, 202, 202), rgb(254, 249, 195));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15px;
+    bottom: 0;
+}
+
+.footer-icon {
+    display: flex;
+    font-size: 25px;
+}
+
+.footer-icon-facebook {
+    color: #0f8ff2;
+    margin-right: 10px;
+}
